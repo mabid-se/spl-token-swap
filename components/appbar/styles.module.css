@@ -1,0 +1,36 @@
+.AppHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10%;
+}
+
+.leftContainer {
+  width: 65%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navItem {
+  padding: 0 15px;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+.navItem:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+.searchContainer {
+  padding: 0 15px;
+}
+.buttonContainer {
+  padding: 0 15px;
+}
